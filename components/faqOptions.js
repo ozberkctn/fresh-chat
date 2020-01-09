@@ -1,8 +1,6 @@
 const {NativeModules} = require('react-native');
 const {RNFreshchatSdk} = NativeModules;
 
-debugger;
-
 const FilterType = {
     "CATEGORY": RNFreshchatSdk.FilterType.CATEGORY,
     "ARTICLE": RNFreshchatSdk.FilterType.ARTICLE
