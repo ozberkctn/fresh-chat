@@ -15,7 +15,7 @@ class FreshchatConfig {
         this.gallerySelectionEnabled = false;
         this.responseExpectationEnabled = true;
         this.showNotificationBanner = true; //iOS only
-        this.notificationSoundEnabled = true; //iOS only
+        this.notificationSoundEnabled = false; //iOS only
 
         Object.preventExtensions(this);
     }
